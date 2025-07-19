@@ -47,6 +47,19 @@ mern-notes-app/
 
 ---
 
+## Backend Dependencies
+
+The backend uses the following main dependencies:
+
+- **express**: Web framework for Node.js
+- **mongoose**: MongoDB object modeling tool
+- **cors**: Cross-Origin Resource Sharing middleware
+- **dotenv**: Environment variable management
+- **@upstash/ratelimit**: Rate limiting functionality
+- **@upstash/redis**: Redis client for rate limiting
+
+---
+
 ## Installation
 
 ### 1. Clone the Repository
@@ -90,10 +103,11 @@ npm run dev
 
 The frontend will be available at `http://localhost:5173` (or as shown in your terminal), and the backend API at `http://localhost:8000` by default.
 
-
-
+---
 
 ## Customization
 - You can add or remove themes by editing `daisyui.themes` in `frontend/tailwind.config.js` and updating the theme list in `frontend/src/components/Navbar.jsx`.
 
 ---
+
+
